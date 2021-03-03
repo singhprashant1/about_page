@@ -69,34 +69,34 @@ class Item1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(20.0),
-      //   image: DecorationImage(
-      //     image: AssetImage('ASSETS/slider1.png'),
-      //     fit: BoxFit.cover,
-      //   ),
-      // ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20.0),
+        image: DecorationImage(
+          image: AssetImage('ASSETS/slider1.png'),
+          fit: BoxFit.cover,
+        ),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              'ASSETS/slider1.png',
-              width: 300.0,
-              height: 240.0,
-              fit: BoxFit.fill,
-            ),
-          ),
+          // ClipRRect(
+          //   borderRadius: BorderRadius.circular(8.0),
+          //   child: Image.asset(
+          //     'ASSETS/slider1.png',
+          //     width: 300.0,
+          //     height: 240.0,
+          //     fit: BoxFit.fill,
+          //   ),
+          // ),
           Text(
             "The Vision",
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           Text(
             "Srila Prabhupäda envisions for New\nVrindavan in India in the form of Govardhan Ecovillage in Mumbai.",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ],
@@ -110,34 +110,34 @@ class Item2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(20.0),
-      //   image: DecorationImage(
-      //     image: AssetImage('ASSETS/slider2.jpg'),
-      //     fit: BoxFit.cover,
-      //   ),
-      // ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20.0),
+        image: DecorationImage(
+          image: AssetImage('ASSETS/slider2.jpg'),
+          fit: BoxFit.cover,
+        ),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              'ASSETS/slider2.jpg',
-              width: 300.0,
-              height: 240.0,
-              fit: BoxFit.fill,
-            ),
-          ),
+          // ClipRRect(
+          //   borderRadius: BorderRadius.circular(8.0),
+          //   child: Image.asset(
+          //     'ASSETS/slider2.jpg',
+          //     width: 300.0,
+          //     height: 240.0,
+          //     fit: BoxFit.fill,
+          //   ),
+          // ),
           Text(
             "The Vision",
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           Text(
             "Srila Prabhupäda envisions for New\nVrindavan in India in the form of Govardhan Ecovillage in Mumbai.",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ],
@@ -151,34 +151,34 @@ class Item3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(10.0),
-      //   image: DecorationImage(
-      //     image: AssetImage('ASSETS/slider3.jpg'),
-      //     fit: BoxFit.cover,
-      //   ),
-      // ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10.0),
+        image: DecorationImage(
+          image: AssetImage('ASSETS/slider3.jpg'),
+          fit: BoxFit.cover,
+        ),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              'ASSETS/slider3.jpg',
-              width: 300.0,
-              height: 240.0,
-              fit: BoxFit.fill,
-            ),
-          ),
+          // ClipRRect(
+          //   borderRadius: BorderRadius.circular(8.0),
+          //   child: Image.asset(
+          //     'ASSETS/slider3.jpg',
+          //     width: 300.0,
+          //     height: 240.0,
+          //     fit: BoxFit.fill,
+          //   ),
+          // ),
           Text(
             "The Vision",
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           Text(
             "Srila Prabhupäda envisions for New\nVrindavan in India in the form of Govardhan Ecovillage in Mumbai.",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ],
@@ -192,34 +192,34 @@ class Item4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(10.0),
-      //   image: DecorationImage(
-      //     image: AssetImage('ASSETS/slider4.jpg'),
-      //     fit: BoxFit.cover,
-      //   ),
-      // ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10.0),
+        image: DecorationImage(
+          image: AssetImage('ASSETS/slider4.jpg'),
+          fit: BoxFit.cover,
+        ),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              'ASSETS/slider4.jpg',
-              width: 300.0,
-              height: 240.0,
-              fit: BoxFit.fill,
-            ),
-          ),
+          // ClipRRect(
+          //   borderRadius: BorderRadius.circular(8.0),
+          //   child: Image.asset(
+          //     'ASSETS/slider4.jpg',
+          //     width: 300.0,
+          //     height: 240.0,
+          //     fit: BoxFit.fill,
+          //   ),
+          // ),
           Text(
             "The Vision",
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           Text(
             "Srila Prabhupäda envisions for New\nVrindavan in India in the form of Govardhan Ecovillage in Mumbai.",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ],
@@ -233,34 +233,34 @@ class Item5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(10.0),
-      //   image: DecorationImage(
-      //     image: AssetImage('ASSETS/slider5.jpg'),
-      //     fit: BoxFit.cover,
-      //   ),
-      // ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10.0),
+        image: DecorationImage(
+          image: AssetImage('ASSETS/slider5.jpg'),
+          fit: BoxFit.cover,
+        ),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              'ASSETS/slider5.jpg',
-              width: 300.0,
-              height: 240.0,
-              fit: BoxFit.fill,
-            ),
-          ),
+          // ClipRRect(
+          //   borderRadius: BorderRadius.circular(8.0),
+          //   child: Image.asset(
+          //     'ASSETS/slider5.jpg',
+          //     width: 300.0,
+          //     height: 240.0,
+          //     fit: BoxFit.fill,
+          //   ),
+          // ),
           Text(
             "The Vision",
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           Text(
             "Srila Prabhupäda envisions for New\nVrindavan in India in the form of Govardhan Ecovillage in Mumbai.",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ],
