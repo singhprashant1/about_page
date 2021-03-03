@@ -70,7 +70,7 @@ class Item1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20.0),
+        borderRadius: BorderRadius.circular(10.0),
         image: DecorationImage(
           image: AssetImage('ASSETS/slider1.png'),
           fit: BoxFit.cover,
@@ -111,7 +111,7 @@ class Item2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20.0),
+        borderRadius: BorderRadius.circular(10.0),
         image: DecorationImage(
           image: AssetImage('ASSETS/slider2.jpg'),
           fit: BoxFit.cover,
